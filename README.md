@@ -1,6 +1,6 @@
-## Evaluating Natural Language Generation in the Medical Domain
+# Evaluating Natural Language Generation in the Medical Domain
 
-# Description
+## Description
 
 This repository contains the source code and experiments described in our study on evaluating Natural Language Generation (NLG) in the medical domain. Our approach implements a pairwise LLM-judge evaluation method, following the Ranking Over Scoring framework.
 
@@ -16,7 +16,7 @@ To address these issues, we implement a pairwise evaluation methodology using op
 
 Our study analyzes alignment with human preferences and the mitigation of biases in automatic evaluation of LLM-generated medical arguments.
 
-# Content 
+## Content 
 Python Scripts:
 - llmAsJudge-pairwise.py: script to prompt the LLM-judges and get the outputs
 - parse_outputs_pairwise.py: script to parse the outputs and calculate the rankings based on victory count or TrueSkill score
